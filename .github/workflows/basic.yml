@@ -2,7 +2,7 @@ name: Basic Github Action pipeline
 
 on:
   push:
-    branches: ["main"]
+    branches: ["master"]
 
 jobs:
   Basics:
@@ -11,5 +11,4 @@ jobs:
     steps:
       - name: write into a file
         run: echo "hello from Github action pipeline"
-    
       
